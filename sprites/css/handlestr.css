@@ -1,0 +1,8 @@
+﻿{{#sprites}}
+.icon-{{Name}}{
+	background-image:url("{{escape_image}}");
+	background-position:{{px.offset_x}} {{px.offset_y}};
+	width:{{px.width}};
+	height:{{px.height}};
+}
+{{/sprites}}
