@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  button#download download
+  a(href="javascripts/download.csv") file
+  p Welcome to #{title}
+  #disqus_thread
+  script(src="http://code.jquery.com/jquery-latest.js")
+  script(src="https://communication-university-comment-system.disqus.com/embed.js")
+  script(src="./javascripts/download.js")
